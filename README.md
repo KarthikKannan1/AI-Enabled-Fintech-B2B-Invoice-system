@@ -49,8 +49,8 @@ The dataset mirrors real SAP FI-AR exports (fields like `doc_id`, `posting_id`, 
                     ↑
 ┌───────────────────┴──────────────────────────────┐
 │  Python ML Pipeline  (Jupyter Notebook)          │
-│  Data prep → Feature engineering →              │
-│  Random Forest regression → write predictions   │
+│  Data prep → Feature engineering →               │
+│  Random Forest regression → write predictions    │
 └──────────────────────────────────────────────────┘
 ```
 
