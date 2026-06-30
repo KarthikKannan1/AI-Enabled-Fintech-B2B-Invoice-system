@@ -229,6 +229,15 @@ Run all cells in order. The final cells write `predicted_payment_date` back to M
 
 ---
 
+## Internship Certificate
+
+![HighRadius Certificate of Completion](docs/internship_certificate.png)
+
+> **Karthik K** — Certificate of Completion, HighRadius "Highway to HighRadius" Internship Programme  
+> Product & Engineering · Product Essentials Program · 28 Jan 2022 – 13 Apr 2022
+
+---
+
 ## License
 
 MIT — see [LICENSE](LICENSE).
