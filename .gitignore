@@ -1,0 +1,68 @@
+# Compiled Java class files
+*.class
+
+# Build output directories
+build/
+out/
+target/
+
+# WAR / JAR / EAR artifacts
+*.war
+*.ear
+# Ignore standalone JARs but keep bundled servlet dependencies
+*.jar
+!backend/src/main/webapp/WEB-INF/lib/*.jar
+
+# Eclipse project files
+.classpath
+.project
+.settings/
+
+# IntelliJ IDEA project files
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# NetBeans project files
+nbproject/private/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
+
+# VS Code
+.vscode/
+
+# Maven
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+
+# Gradle
+.gradle/
+gradle-app.setting
+!gradle-wrapper.jar
+
+# OS-generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Environment / secrets — NEVER commit these
+.env
+*.env
+db.properties
+secrets.properties
+
+# Log files
+*.log
+logs/
